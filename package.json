@@ -1,0 +1,13 @@
+{
+    "name": "post-man-ci-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "run-collections-in-directory.js",
+    "scripts": {},
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "newman": "^3.9.3"
+    },
+    "devDependencies": {}
+}
