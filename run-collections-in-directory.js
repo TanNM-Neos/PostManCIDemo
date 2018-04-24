@@ -19,8 +19,7 @@ fs.readdir('./', function (err, files) {
         newman.run({
             // we load collection using require. for better validation and handling
             // JSON.parse could be used
-            collection: require(`${__dirname}/${file}`),
-            reporters: 'cli'
+            collection: require(`${__dirname}/${file}`)
         }, function (err) {
             // finally, when the collection executes, print the status
             if (err) { throw err; }
