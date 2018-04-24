@@ -4,7 +4,7 @@
     "description": "",
     "main": "run-collections-in-directory.js",
     "scripts": {
-        "test": "node run-collections-in-directory.js"
+        "test": "node find-unique-urls-in-run.js"
     },
     "author": "",
     "license": "ISC",
