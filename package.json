@@ -4,7 +4,7 @@
     "description": "",
     "main": "run-collections-in-directory.js",
     "scripts": {
-        "test": "node npm/run-collections-in-directory.js"
+        "test": "node run-collections-in-directory.js"
     },
     "author": "",
     "license": "ISC",
