@@ -4,7 +4,7 @@
     "description": "",
     "main": "./NewManCase.js",
     "scripts": {
-        "test": "./test/newman_test.js"
+        "test": "node node_modules/.bin/mocha"
     },
     "author": "",
     "license": "ISC",
