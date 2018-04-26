@@ -9,8 +9,11 @@ describe("Tools", function() {
 
 		it("Test sample-collection api with newman", function(done) {
 			tools.runPostManCollection("sample-collection", function(result) {
-				expect(result).to.equal("The sample-collection run completed with result pass.")
-				done();
+                // time out for waiting report
+                setTimeout(function() { 
+                    expect(result).to.equal("The sample-collection run completed with result pass.")
+				    done();
+                }, 10000);
 			});
 		});
 
