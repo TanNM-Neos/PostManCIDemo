@@ -13,7 +13,8 @@ module.exports = {
         
         var collectionPath = `../data/${name}.json`;
         newman.run({ 
-            collection: require(collectionPath)
+            collection: require(collectionPath),
+            reporters: 'cli' 
             })
             .on('start', function (err, args) {
                 if (err) { return; }
