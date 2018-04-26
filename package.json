@@ -2,13 +2,15 @@
     "name": "post-man-ci-demo",
     "version": "1.0.0",
     "description": "",
-    "main": "run-collections-in-directory.js",
+    "main": "./NewManCase.js",
     "scripts": {
-        "test": "node find-unique-urls-in-run.js"
+        "test": "./test/newman_test.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^5.1.1",
         "newman": "^3.9.3"
     },
     "devDependencies": {}
