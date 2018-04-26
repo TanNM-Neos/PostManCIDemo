@@ -12,9 +12,11 @@ module.exports = {
         // call newman.run to pass `options` object and listen to events
         
         var collectionPath = `../data/${name}.json`;
+        var envPath = `../data/${name}-env.json`;
         newman.run({ 
             collection: require(collectionPath),
-            reporters: 'cli' 
+            reporters: 'cli',
+            environment: require(envPath) 
             })
             .on('start', function (err, args) {
                 if (err) { return; }
