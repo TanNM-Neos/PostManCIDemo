@@ -5,7 +5,7 @@ describe("Tools", function() {
 
 	describe("runPostManCollection()", function() {
 
-		this.timeout(30000);
+		this.timeout(180000); // 3 minutes
 
 		it("Test sample-collection api with newman", function(done) {
 			tools.runPostManCollection("sample-collection", function(result) {
