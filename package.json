@@ -4,7 +4,7 @@
     "description": "",
     "main": "./NewManCase.js",
     "scripts": {
-        "test": "- bash ./test/newman_test.js"
+        "test": "./test/newman_test.js"
     },
     "author": "",
     "license": "ISC",
