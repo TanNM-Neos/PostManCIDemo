@@ -35,4 +35,3 @@ jobs:
         
       # run tests!
       - run: node ./src/NewManCase
-      - run: npm test
